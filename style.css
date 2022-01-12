@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+
+
+::selection {
+    color: rgb(255, 255, 255);
+    background: #07346e;
+  }
+*{
+ box-sizing: border-box;
+}
+html{margin: 0;padding: 0;}
+body{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+line-height: 1.5;
+overflow-x: hidden;
+}
+.row{margin-right: 0px!important;margin-left: 0px!important;}
+/* width in persentage */
+.w-10{width: 10%;}.w-15{width: 15%;}.w-20{width: 20%;}.w-25{width: 25%;}.w-30{width: 30%}.w-35{width: 35%;}.w-40{width: 40%;}.w-45{width: 45%;}.w-50{width: 50%;}.w-55{width: 55%;}.w-60{width: 60%;}.w-65{width: 65%}.w-70{width: 70%;}.w-75{width: 75%;}.w-80{width: 80%;}.w-85{width: 85%;}.w-90{width: 90%;}.w-95{width: 95%}.w-100{width: 100%;}
+
+.clear{clear: both;}
+.uppercase{text-transform: uppercase;}
+/* font sizing in rem */
+.font-0_3rem{font-size: 0.3rem;}.font-0_5rem{font-size: 0.5rem;}.font-0_8rem{font-size: 0.8rem;}.font-1rem{font-size: 1rem;}.font-1_2rem{font-size: 1.2rem;}.font-1_3rem{font-size: 1.3rem;}.font-1_5rem{font-size: 1.5rem;}.font-1_6rem{font-size: 1.6rem;}.font-2rem{font-size: 2rem;}.font-2_3rem{font-size: 2.3rem;}.font-2_4rem{font-size: 2.4rem;}.font-2_5rem{font-size: 2.5rem;}
+/* to put Button in center */
+.btn-center{display: flex;justify-content:center;margin:0 auto;}
+/* bootstrap customization */
+.container-fluid{padding: 0;}.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{padding-right: 0!important; padding-left: 0!important;}
+.p-0{padding: 0;}.m-0{margin: 0;}
+/* my styling */
+.top-background{    
+background-image: url(desktop/image-header.jpg);
+height: 625px;
+width: 100%;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.font-logo{font-family: 'Lato', sans-serif;}
+.font-large{font-size: 6rem;padding-top: 2.5rem;font-family: 'Playfair Display', serif;}
+.top-background img{display: block;  margin-left: auto;  margin-right: auto; }
+.first-row-of-my-styling h1{font-size: 3rem; padding-bottom: 1rem;   font-family: 'Lobster', cursive;}
+.pt-20{padding-top: 10rem;}
+.first-row-of-my-styling a{color: black;font-weight: 700;border-bottom: 3px solid #ffd101;}
+.first-row-of-my-styling a:hover{text-decoration: none;}
+.sec-row-of-my-styling a{color: black;font-weight: 700;border-bottom: 3px solid #ff7364;}
+.sec-row-of-my-styling a:hover{text-decoration: none;}
+.sec-row-of-my-styling h1{font-size: 3rem; padding-bottom: 1rem;   font-family: 'Lobster', cursive;}
+.pos-bottom2{
+  position: relative;
+  margin-top: -200px;
+}
+.border{border: 1px solid black;}
+.bg-lightgray{background-color: #eceaea;}
+.middle-heading{margin: 0 auto;} .middle-heading h2{padding-top: 100px;font-family: 'Luxurious Roman', cursive; color: #868686;font-size: 3rem;letter-spacing: 1px;}
+.round-images img{border-radius: 50%;width: 50px;margin-top: 50px;margin-bottom: 20px;}
+.test-para{text-align: center;font-size: 1rem;}
+.name{text-align: center;font-size: 1.2rem;padding-top: 10px;}
+.offer{text-align: center;font-size: 0.8rem;color: #bdb9b8;padding-bottom: 50px;}
+.center {display: block;  margin-left: auto;  margin-right: auto;  width: 50%;}
+.bg-theme{background-color: #90d4c5;}
+.footer h2{padding-top: 50px;padding-bottom: 20px; color: #215e4f; font-weight: 800;}
+.anchor-footer a{color: #4f9384; font-weight: 610;padding-right: 30px;}
+.icons{padding-right: 30px;}
