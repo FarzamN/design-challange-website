@@ -70,3 +70,8 @@ background-attachment: fixed;
 .footer h2{padding-top: 50px;padding-bottom: 20px; color: #215e4f; font-weight: 800;}
 .anchor-footer a{color: #4f9384; font-weight: 610;padding-right: 30px;}
 .icons{padding-right: 30px;}
+@media only screen and (max-width: 600px) {
+  .font-large {
+ font-size: 2.5rem;
+  }
+}
