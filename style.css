@@ -46,7 +46,7 @@ background-attachment: fixed;
 }
 .font-logo{font-family: 'Lato', sans-serif;}
 .font-large{font-size: 6rem;padding-top: 2.5rem;font-family: 'Playfair Display', serif;}
-.top-background img{display: block;  margin-left: auto;  margin-right: auto; }
+.top-background img{display: block;  margin-left: auto;  margin-right: auto; width: 200px;}
 .first-row-of-my-styling h1{font-size: 3rem; padding-bottom: 1rem;   font-family: 'Lobster', cursive;}
 .pt-20{padding-top: 10rem;}
 .first-row-of-my-styling a{color: black;font-weight: 700;border-bottom: 3px solid #ffd101;}
@@ -74,4 +74,12 @@ background-attachment: fixed;
   .font-large {
  font-size: 2.5rem;
   }
+  .top-background img{
+     width: 150px;
+    }
+.pt-20{padding-top: 2rem;}
+.middle-heading h2{font-size: 2.5rem;}
+}
+@media only screen and (max-width: 444px) {
+  .yeahimg img{height: 500px;}
 }
